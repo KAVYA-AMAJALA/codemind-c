@@ -2,10 +2,9 @@
 #include<math.h>
 int main()
 {
-int P,R,T;
-float ci;
-scanf("%d%d%d",&P,&R,&T);
-  ci=P*(pow((1+(R/100.0)),T)-1);
-    printf("%.2f",ci);
-    return 0;
+    int p,r,t;
+    float ci;
+    scanf("%d%d%d",&p,&r,&t);
+    ci=p*(pow((1+(r/100.0)),t)-1);
+    printf("%0.2f",ci);
 }
