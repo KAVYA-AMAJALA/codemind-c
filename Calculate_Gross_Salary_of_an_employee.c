@@ -8,4 +8,5 @@ int main()
     printf("%0.2f
 ",pf);
     printf("%0.2f",gs);
+    
 }
