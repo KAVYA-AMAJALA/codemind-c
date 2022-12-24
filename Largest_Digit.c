@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,r,l=0;
+    int n,large=0,rem=0;
     scanf("%d",&n);
     while(n>0)
     {
-        r=n%10;
-        if(l<r)
+        rem=n%10;
+        if(rem>large)
         {
-            l=r;
+            large=rem;
         }
         n=n/10;
     }
-    printf("%d
-",l);
+    printf("%d",large);
+    
 }
